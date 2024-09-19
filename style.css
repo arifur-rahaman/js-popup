@@ -34,6 +34,7 @@
   font-size: 22px;
   font-weight: 500;
   border-radius: 20px;
+  visibility: visible;
 }
 
 .popup {

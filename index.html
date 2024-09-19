@@ -31,13 +31,16 @@
 
     <script>
       let popup = document.getElementById("popup");
+      let submitBtn = document.getElementsByClassName("btn")[0];
 
       function openPopup() {
         popup.classList.add("open-popup");
+        submitBtn.style.visibility = "hidden";
       }
 
       function closePopup() {
         popup.classList.remove("open-popup");
+        submitBtn.style.visibility = "visible";
       }
     </script>
   </body>
